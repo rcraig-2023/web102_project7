@@ -1,0 +1,41 @@
+.detail-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detail-page h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .detail-page p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .detail-page .actions {
+    margin-top: 20px;
+  }
+  
+  .detail-page .actions a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .detail-page .actions a:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,53 @@
+.summary-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .add-crewmate-link {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .add-crewmate-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .crewmates-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .crewmate-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .crewmate-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .edit-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .edit-link:hover {
+    text-decoration: underline;
+  }
